@@ -1,0 +1,16 @@
+{
+  "name": "enexbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "enexbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "request": "^2.81.0",
+    "telebot": "^1.2.3"
+  }
+}
