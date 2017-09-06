@@ -20,7 +20,7 @@ var request = require("request");
   }
   
   else{
-	  
+	
  	let Ex00 = body.result.sentences[0].sentence
 	let Ex01 = body.result.sentences[1].sentence
 	let Ex02 = body.result.sentences[2].sentence
