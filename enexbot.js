@@ -15,7 +15,7 @@ var request = require("request");
 	    domain: '' },
  json: true};
 		request(options, function (error, response, body) {
-  if (body.result == null)
+  if (body.result.totalHits == 0)
   {return bot.sendMessage(id, "No example found. Try a new word.");
   }
   
